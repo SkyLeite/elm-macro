@@ -1,0 +1,23 @@
+{
+  "name": "elm-macro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "tsc && webpack",
+    "test": "jest"
+  },
+  "dependencies": {
+    "jest": "^29.7.0",
+    "true-myth": "^8.0.1",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.6.3",
+    "webpack": "^5.95.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/mocha": "^10.0.9"
+  }
+}
